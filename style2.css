@@ -9,3 +9,85 @@ Dark Grey: #333
 
 */
 
+/* Hero Section */
+.adoptHeroSection{
+    background-image: url("images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.adoptHeroText{
+    color:white;
+    font-size: 30px;
+  text-transform: uppercase;
+    text-shadow: 1px 1px 3px black ;
+}
+.adoptHeader{
+    background-color:#B8621B;
+    text-align: center;
+    font-size: 65px;
+    color:white;
+    text-shadow: 3px 3px black;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+/* Adopt a animal display  */
+
+.adoptDisplay{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(24rem,1fr));
+    gap: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    border: 4px #333;
+    border-style: groove;
+    transition: all 0.2s ease-in-out;
+  
+}
+.card:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+/* Volunteer Section  */
+.volunteerSection{
+    background-color: #262A56;
+    margin-top: 30px;
+    padding:20px
+
+}
+.volunteerTopText{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 45px;
+
+}
+.volunteerImage{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+   
+}
+.volunteerImage img{
+    height: 450px;
+    width:450px;
+    border-radius: 5px;
+
+   
+}
+.volunteerBottomText{
+    color:white;
+    text-align:center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
