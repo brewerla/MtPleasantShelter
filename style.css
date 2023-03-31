@@ -126,3 +126,43 @@ nav .nav-container {
 }
 
 /* Hero section ending */
+
+/* About us section beginning */
+.about-section {
+    margin-top: 50px;
+}
+.about-section .title {
+    font-size: 2.5rem;
+}
+.about-section p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+.about-section .mission {
+
+}
+.about-section .mission .mission-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.about-section .mission .mission-element {
+    margin-left: 40px;
+}
+.about-section .mission .mission-element::before {
+    content: '- '
+}
+
+/* About us section ending */
+
+/* Footer beginning */
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Footer ending */
