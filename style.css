@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: Raleway, sans-serif;
 }
 
@@ -41,6 +41,27 @@ a {
 a:hover {
     border-bottom-color: white;
 }
+
+.btn {
+    padding: 10px 20px;
+    background-color: #B8621B;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 1.1rem;
+
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #B8621B;
+}
+
 
 /* Navigation section beginning */
 nav {
@@ -74,14 +95,34 @@ nav .nav-container {
     background-image: url("./images/Path.jpeg");
     background-size: cover;
     background-position: center;
-    background-blend-mode: screen;
-    background-color: #262A56;
+    background-blend-mode: overlay;
+    background-color: rgba(24, 25, 54, 0.3);
 
     color: white;
 
     height: 75vh;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .hero-content {
+    width: 50%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero-section .hero-content p {
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+.hero-section .hero-content .interaction-box {
+    margin-top: 15px;
 }
 
 /* Hero section ending */
