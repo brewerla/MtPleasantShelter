@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #E3CCAE;
+}
+
 .margin-container {
     width: 85%;
     margin: 0 auto;
@@ -11,17 +15,32 @@
 
 a {
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 1s ease-in-out;
+
+    color: white;
 }
 
 a:hover {
-    
+    border-bottom-color: white;
 }
 
+/* Navigation section beginning */
 nav {
     background-color: #333;
+    color: white;
+    padding: 20px 0;
 }
 nav .nav-container {
     display: flex;
     justify-content: space-between;
+    padding: ;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Navigation section ending */
